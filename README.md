@@ -22,8 +22,10 @@
 | **[deer-flow](https://github.com/bytedance/deer-flow)** · 字节跳动 | 84k★ | [1](https://github.com/bytedance/deer-flow/pull/7243) | 修复 main 分支 CI 红灯：cargo 冷编译超时预算不足 |
 | **[etcd](https://github.com/etcd-io/etcd)** · CNCF | 52k★ | [4](https://github.com/etcd-io/etcd/pull/22629) | Go 工具链安全升级（CVE 修复），覆盖 main + release-3.7/3.6/3.5 四个分支 |
 | **[FunASR](https://github.com/modelscope/FunASR)** · 阿里达摩院 | 21k★ | [2](https://github.com/modelscope/FunASR/pull/3784) | 修复 WER 指标的 NumPy int16 溢出（32768 token 时崩溃），含 12 个回归测试 |
+| **[raft](https://github.com/etcd-io/raft)** · etcd-io | 3.5k★ | [3](https://github.com/etcd-io/raft/pull/537) | 同 issue 的 Go 版本升级，main + release-3.6/3.7 |
+| **[auger](https://github.com/etcd-io/auger)** 等 4 个 etcd 子项目 | — | [4](https://github.com/etcd-io/auger/pull/538) | auger / etcd-operator / gofail / protodoc 的同类升级 |
 
-另有 13 个 PR 在 etcd 子项目（bbolt、raft、gofail、auger、etcd-operator、protodoc）及 OpenViking、OpenCodeReview 中等待审查。
+另有 4 个 PR 在 bbolt 中等待合并（CI 全绿、已获双 APPROVED），2 个在 OpenViking 和 OpenCodeReview 中等待审查。
 
 ## 札记
 
@@ -37,7 +39,7 @@
 
 - 在找 **AI 产品运营 / AI 应用产品**方向的实习
 - 在写「蓝纸」；此刻的完整清单见 [now 页](https://batianxieshen1.github.io/blog/now/)
-- 在给高星开源项目提 PR：etcd、deer-flow、FunASR 已合并 7 个，另有 13 个在审
+- 在给高星开源项目提 PR：etcd、deer-flow、FunASR、raft 等已合并 **13 个**，另有 6 个在审
 
 ---
 
