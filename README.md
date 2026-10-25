@@ -25,7 +25,7 @@
 | **[raft](https://github.com/etcd-io/raft)** · etcd-io | 3.5k★ | [3](https://github.com/etcd-io/raft/pull/537) | 同 issue 的 Go 版本升级，main + release-3.6/3.7 |
 | **[auger](https://github.com/etcd-io/auger)** 等 4 个 etcd 子项目 | — | [4](https://github.com/etcd-io/auger/pull/538) | auger / etcd-operator / gofail / protodoc 的同类升级 |
 
-另有 4 个 PR 在 bbolt 中等待合并（CI 全绿、已获双 APPROVED），2 个在 OpenViking 和 OpenCodeReview 中等待审查。
+另有 4 个 PR 在 bbolt 中等待合并（CI 全绿、已获双 APPROVED），以及 grafana、ant-design-mobile、etcd CHANGELOG、OpenViking、open-code-review 中的 PR 在审。
 
 ## 札记
 
@@ -39,7 +39,7 @@
 
 - 在找 **AI 产品运营 / AI 应用产品**方向的实习
 - 在写「蓝纸」；此刻的完整清单见 [now 页](https://batianxieshen1.github.io/blog/now/)
-- 在给高星开源项目提 PR：etcd、deer-flow、FunASR、raft 等已合并 **13 个**，另有 6 个在审
+- 在给高星开源项目提 PR：etcd、deer-flow、FunASR、raft 等已合并 **14 个**，另有 8 个在审
 
 ---
 
