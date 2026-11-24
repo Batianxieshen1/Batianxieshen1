@@ -15,17 +15,21 @@
 
 ## 开源
 
-每个 PR 都先在本机复现、跑通测试、再提交——不交没验证过的改动。
+每个 PR 都先在本机复现、跑通测试、再提交——不交没验证过的改动。**目前已在外部开源项目合并 23 个 PR**，另有 16 个在审。
 
 | 项目 | 星标 | 已合并 | 做了什么 |
 | --- | --- | --- | --- |
-| **[deer-flow](https://github.com/bytedance/deer-flow)** · 字节跳动 | 84k★ | [1](https://github.com/bytedance/deer-flow/pull/7243) | 修复 main 分支 CI 红灯：cargo 冷编译超时预算不足 |
-| **[etcd](https://github.com/etcd-io/etcd)** · CNCF | 52k★ | [4](https://github.com/etcd-io/etcd/pull/22629) | Go 工具链安全升级（CVE 修复），覆盖 main + release-3.7/3.6/3.5 四个分支 |
-| **[FunASR](https://github.com/modelscope/FunASR)** · 阿里达摩院 | 21k★ | [2](https://github.com/modelscope/FunASR/pull/3784) | 修复 WER 指标的 NumPy int16 溢出（32768 token 时崩溃），含 12 个回归测试 |
-| **[raft](https://github.com/etcd-io/raft)** · etcd-io | 3.5k★ | [3](https://github.com/etcd-io/raft/pull/537) | 同 issue 的 Go 版本升级，main + release-3.6/3.7 |
-| **[auger](https://github.com/etcd-io/auger)** 等 4 个 etcd 子项目 | — | [4](https://github.com/etcd-io/auger/pull/538) | auger / etcd-operator / gofail / protodoc 的同类升级 |
+| **[deer-flow](https://github.com/bytedance/deer-flow)** · 字节跳动 | 86k★ | [3](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3ABatianxieshen1+is%3Amerged) | main 分支 CI 红灯修复（cargo 冷编译超时）、skills 工具结果与响应配对、memory doctor 配置校验 |
+| **[etcd](https://github.com/etcd-io/etcd)** · CNCF | 53k★ | [4](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3ABatianxieshen1+is%3Amerged) | Go 工具链安全升级（CVE 修复），覆盖 main + release-3.7/3.6/3.5 四个分支 |
+| **[FunASR](https://github.com/modelscope/FunASR)** · 阿里达摩院 | 21k★ | [2](https://github.com/modelscope/FunASR/pulls?q=is%3Apr+author%3ABatianxieshen1+is%3Amerged) | 修复 WER 指标的 NumPy int16 溢出（32768 token 时崩溃），含 12 个回归测试 |
+| **[raft](https://github.com/etcd-io/raft)** · etcd-io | 1.2k★ | [3](https://github.com/etcd-io/raft/pulls?q=is%3Apr+author%3ABatianxieshen1+is%3Amerged) | 同 issue 的 Go 版本升级，main + release-3.6/3.7 |
+| **[bbolt](https://github.com/etcd-io/bbolt)** · etcd-io | — | [4](https://github.com/etcd-io/bbolt/pulls?q=is%3Apr+author%3ABatianxieshen1+is%3Amerged) | 同一轮 Go 版本升级，main + release-1.5/1.4/1.3 |
+| **[auger](https://github.com/etcd-io/auger)** 等 4 个 etcd 子项目 | — | 4 | auger / etcd-operator / gofail / protodoc 的同类升级 |
+| **[grafana](https://github.com/grafana/grafana)** | — | [1](https://github.com/grafana/grafana/pull/135942) | Table：隐藏列后仍把焦点留在表头行，含回归测试 |
+| **[OpenViking](https://github.com/volcengine/OpenViking)** · 火山引擎 | — | [1](https://github.com/volcengine/OpenViking/pull/7464) | pi：为退出路径上的最后一次 commit 加上边界 |
+| **[open-code-review](https://github.com/alibaba/open-code-review)** · 阿里 | — | [1](https://github.com/alibaba/open-code-review/pull/1909) | gitcmd：取消后用 WaitDelay 给 Wait 设边界 |
 
-另有 4 个 PR 在 bbolt 中等待合并（CI 全绿、已获双 APPROVED），以及 grafana、ant-design-mobile、etcd CHANGELOG、OpenViking、open-code-review 中的 PR 在审。
+在审的 16 个 PR 分布在 etcd、OpenViking、ollama、caddy、dify、hugo、eino、open-code-review、ant-design-mobile。最近一单是 OpenViking 的录制回放修复：`RecordingVikingDB` 记录的是扁平请求，回放时向量只从 `kwargs` 找，`query_vector` 变成了 `None`。
 
 ## 札记
 
@@ -39,7 +43,7 @@
 
 - 在找 **AI 产品运营 / AI 应用产品**方向的实习
 - 在写「蓝纸」；此刻的完整清单见 [now 页](https://batianxieshen1.github.io/blog/now/)
-- 在给高星开源项目提 PR：etcd、deer-flow、FunASR、raft 等已合并 **14 个**，另有 8 个在审
+- 在给高星开源项目提 PR：etcd、deer-flow、FunASR、grafana 等已合并 **23 个**，另有 **16 个**在审
 
 ---
 
